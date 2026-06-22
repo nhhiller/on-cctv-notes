@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>世界杯 · 再访备忘</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #faf7f2;
+            font-family: 'Georgia', 'Times New Roman', 'Noto Serif SC', serif;
+            color: #3a322c;
+            line-height: 1.75;
+            padding: 2rem 1.5rem 3rem;
+        }
+
+        .page {
+            max-width: 780px;
+            margin: 0 auto;
+            background: #fefcf8;
+            padding: 2.5rem 2rem 3rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.3rem;
+            color: #2b221c;
+            border-left: 4px solid #c7a77b;
+            padding-left: 1rem;
+        }
+
+        .subhead {
+            font-size: 0.95rem;
+            color: #8a7e73;
+            margin-bottom: 2rem;
+            padding-left: 1.4rem;
+            font-style: italic;
+        }
+
+        .hero-note {
+            background: #f3efe7;
+            padding: 1.5rem 1.8rem;
+            border-radius: 12px;
+            margin: 1.8rem 0 2.2rem;
+            border-left: 6px solid #b59a7a;
+        }
+
+        .hero-note p {
+            font-size: 1.05rem;
+        }
+
+        .section-title {
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin: 2rem 0 0.8rem;
+            color: #3f332b;
+            border-bottom: 1px solid #e3d9ce;
+            padding-bottom: 0.35rem;
+        }
+
+        .highlight-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.2rem;
+            margin: 1.2rem 0 1.8rem;
+        }
+
+        .highlight-item {
+            flex: 1 1 180px;
+            background: #f8f5ef;
+            padding: 1rem 1.2rem;
+            border-radius: 12px;
+            border: 1px solid #e6ddd2;
+        }
+
+        .highlight-item strong {
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 0.25rem;
+            color: #4e3f34;
+        }
+
+        .highlight-item span {
+            font-size: 0.9rem;
+            color: #63574b;
+        }
+
+        .quote-block {
+            background: #f1ece4;
+            padding: 1.2rem 1.8rem;
+            border-radius: 14px;
+            margin: 1.6rem 0 2rem;
+            font-style: italic;
+            color: #4f4238;
+            border: 1px solid #ddd3c5;
+            box-shadow: 0 2px 0 #e6dacd;
+        }
+
+        .quote-block p {
+            margin-bottom: 0.3rem;
+        }
+
+        .quote-block .source {
+            font-style: normal;
+            font-size: 0.85rem;
+            color: #8f8174;
+            text-align: right;
+        }
+
+        .tip-box {
+            background: #ebdfd2;
+            padding: 1rem 1.5rem;
+            border-radius: 10px;
+            margin: 1.8rem 0;
+            font-size: 0.95rem;
+            border-left: 4px solid #b08d6a;
+        }
+
+        .tip-box strong {
+            color: #3f2f24;
+        }
+
+        .faq-item {
+            margin: 1.2rem 0;
+            padding: 0.8rem 0;
+            border-bottom: 1px dashed #ddd3c6;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-q {
+            font-weight: 600;
+            color: #3d3027;
+            margin-bottom: 0.2rem;
+        }
+
+        .faq-a {
+            color: #5e5043;
+            font-size: 0.95rem;
+            padding-left: 0.3rem;
+        }
+
+        .inline-link {
+            color: #8b6f51;
+            text-decoration: none;
+            border-bottom: 1px dotted #c7b09b;
+            transition: border 0.15s;
+        }
+
+        .inline-link:hover {
+            border-bottom: 2px solid #8b6f51;
+        }
+
+        .footer-note {
+            margin-top: 2.8rem;
+            padding-top: 1.2rem;
+            border-top: 1px solid #e8dfd4;
+            font-size: 0.85rem;
+            color: #9b8e7f;
+            text-align: center;
+        }
+
+        @media (max-width: 520px) {
+            body {
+                padding: 1rem 0.8rem;
+            }
+            .page {
+                padding: 1.6rem 1.2rem;
+            }
+            h1 {
+                font-size: 1.8rem;
+                padding-left: 0.8rem;
+            }
+            .subhead {
+                font-size: 0.85rem;
+                padding-left: 0.8rem;
+            }
+            .hero-note {
+                padding: 1rem 1.2rem;
+            }
+            .highlight-grid {
+                flex-direction: column;
+            }
+            .highlight-item {
+                flex: 1 1 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+
+    <h1>世界杯 · 再访备忘</h1>
+    <div class="subhead">一次安静的收藏，一次有准备的返回</div>
+
+    <div class="hero-note">
+        <p>有些页面，值得你第二次点开。不是因为它承诺了什么，而是它恰好承载了你关注的内容——比如<a href="https://on-cctv-sjb.com" class="inline-link">世界杯</a>。与其每次重新搜索，不如把信任交给一个稳定的入口。这篇文章，就是为你下次回来准备的便签。</p>
+    </div>
+
+    <h2 class="section-title">为什么值得再回来</h2>
+    <div class="highlight-grid">
+        <div class="highlight-item">
+            <strong>聚焦赛程</strong>
+            <span>淘汰赛、小组积分、关键场次——信息密度适中，不堆砌无关新闻。</span>
+        </div>
+        <div class="highlight-item">
+            <strong>回顾视角</strong>
+            <span>既有实时更新，也有赛后梳理，适合想要慢慢看而非刷屏的人。</span>
+        </div>
+        <div class="highlight-item">
+            <strong>界面克制</strong>
+            <span>没有铺满屏幕的弹窗和自动播放，阅读节奏由你控制。</span>
+        </div>
+    </div>
+
+    <div class="quote-block">
+        <p>“第二次访问时，你才知道一个页面是不是真的为你准备的。初次是试探，再访是确认。”</p>
+        <div class="source">—— 一位习惯把链接存在备忘录的读者</div>
+    </div>
+
+    <h2 class="section-title">使用建议 · 让收藏更有效</h2>
+    <ul style="list-style: none; padding-left: 0.2rem; margin: 1rem 0 1.5rem;">
+        <li style="padding: 0.4rem 0;">✦ 把页面加入浏览器书签或笔记软件，下次想看时直接打开，而不是重新搜索。</li>
+        <li style="padding: 0.4rem 0;">✦ 如果某天页面加载稍慢，可能是流量高峰，稍后再试即可。内容一直稳定。</li>
+        <li style="padding: 0.4rem 0;">✦ 重点关注首页的赛事卡片和更新时间，它们是你判断是否有新内容的标志。</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>一点提醒：</strong> 如果你是通过朋友推荐或偶然链接来到这里，建议先浏览几页，感受一下信息风格是否合拍。合拍的话，再决定是否长期关注。
+    </div>
+
+    <h2 class="section-title">常见疑问 · 简短摘要</h2>
+
+    <div class="faq-item">
+        <div class="faq-q">这个页面和官方有什么不同？</div>
+        <div class="faq-a">它是一个独立的关注站点，专注于提供<a href="https://on-cctv-sjb.com" class="inline-link">世界杯</a>相关的赛事情报与回顾，风格更接近个人笔记式的整理，而不是大型平台的全量播报。</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-q">需要注册或登录吗？</div>
+        <div class="faq-a">不需要。打开即看，没有账户体系，也没有付费墙。收藏链接就好。</div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-q">内容更新频率怎样？</div>
+        <div class="faq-a">赛期每日或隔日更新，非赛期保持适度整理，不会频繁打扰。你可以隔一段时间回来看一次。</div>
+    </div>
+
+    <div class="footer-note">
+        持续关注，有时候只需要一个安静的地址。<br>
+        把 <a href="https://on-cctv-sjb.com" class="inline-link">世界杯</a> 放在手边，下次回来会更从容。
+    </div>
+
+</div>
+
+</body>
+</html>
